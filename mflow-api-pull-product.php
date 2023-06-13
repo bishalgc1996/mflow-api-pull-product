@@ -95,7 +95,6 @@
         $new_product = new WC_Product_Simple();
         $new_product->set_name($product_data->name);
         $new_product->set_regular_price($product_data->price);
-        var_dump($product_data->description) ;
         $new_product->set_description($product_data->description);
         $new_product->set_sku($product_data->sku);
         $new_product->set_stock_quantity($product_data->stock_quantity);
