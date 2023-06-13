@@ -55,7 +55,7 @@
                     // Check if the product already exists in WooCommerce
                     $existing_product = wc_get_product_id_by_sku($product->sku);
 
-                    if ($count > 12) {
+                    if ($count > 22) {
                         break;
                     }
 
